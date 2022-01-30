@@ -1,0 +1,710 @@
+/**TABLE OF CONTENTS
+ *
+ *GENERAL FORMATTING
+ *Eric Mayer css reset, single direction margin declaration
+ *
+ *COMPONENTS
+ *
+ *
+ *
+ *LAYOUTS
+ *
+ *
+ */
+
+
+
+
+ /**#GENERAL FORMATTING*/
+
+/**http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/** HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** https://csswizardry.com/2012/06/single-direction-margin-declarations/
+Single direction margin declaration
+*/
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr{
+    margin-bottom:1.5rem;
+}
+
+/**BOX SIZING*/
+
+
+
+/**#COMPONENTS*/
+
+.body {
+  font-size: 18px;
+}
+
+
+.main {
+	background-color: rgba(244, 243, 245, 1);
+    font-family: 'Montserrat';
+
+}
+
+
+.header-button {
+	position: absolute;
+	top: 2.21vh;
+    left: 17.93vw;
+    width: 10vw;
+    height: 4.43vh;
+    background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    opacity: 1;
+}
+
+   .subscribe {
+	    text-decoration: none;
+	    text-align: center;
+        font-family: 'Montserrat';
+		font-weight: bold;
+		letter-spacing: 0.14vw;
+		font-size: 0.66rem;
+		line-height: 2.283vh;
+		color: rgba(98, 0, 234, 1);
+		text-transform: uppercase;
+		opacity: 1;
+		padding: 1.5vh 0;
+		display: block;
+}
+
+      .logo-holder {
+          position: absolute;
+          width: 9.56vw;
+          height: 5.55vh;
+          top: 1.66vh;
+          left: 44.37vw;
+        }
+        .logo-and-name {
+           width: inherit;
+           height: inherit;
+        }
+
+.nav-button {
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 0.14vw;
+	color: #6200EA;
+	text-transform: uppercase;
+	opacity: 1;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 0.66rem;
+	line-height: 2.283vh;
+}
+
+.nav-button+.nav-button {
+	margin-left: 4.39vw;
+}
+
+.p1-data {
+  font-size: 0.66rem;
+  font-weight: bold;
+  letter-spacing: 0.17vw;
+  line-height: 2.283vh;
+  text-transform: uppercase;
+  margin-bottom: 1.66vh;
+}
+
+.h2blogtitle {
+  font-size: 2.22rem;
+  line-height: 5.55vh;
+  letter-spacing: 0px;
+  font-weight: bold;
+  margin-bottom: 1.66vh;
+  margin-top: 0;
+}
+
+.blogopeningtext {
+  font-size: 1.11rem;
+  line-height: 3.33vh;
+  letter-spacing: 0px;   
+  margin-top: 0;
+  margin-bottom: 1.66vh;
+}
+
+.forwardbutton {
+    width: 10vw;
+    height: 4.43vh;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 24px;
+    opacity: 1;
+    margin-top: 0;
+}
+
+  .forward {
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-weight: bold;
+      letter-spacing: 0.14vw;
+      font-size: 0.66rem;
+      line-height: 1.82vh;
+      color: white;
+      text-transform: uppercase;
+      opacity: 1;
+      padding: 1.5vh 0;
+      display: block;
+    }
+
+.forwardbutton2 {
+    width: 10vw;
+    height: 4.43vh;
+    background: white;;
+    border: 2px solid #6200EA;
+    border-radius: 24px;
+    opacity: 1;
+    margin-top: 0;
+}
+
+    .forward2 {
+      text-decoration: none;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-weight: bold;
+      letter-spacing: 0.14vw;
+      font-size: 0.66rem;
+      line-height: 1.82vh;
+      color: #6200EA;
+      text-transform: uppercase;
+      opacity: 1;
+      padding: 1.5vh 0;
+      display: block;
+    }
+
+.news-list {
+    height: 66.66vh;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    margin-bottom: 3.33vh;
+}
+
+    .list-title { 
+        background-color: #6200EA;
+        height: 6.66vh;
+        color: white;
+        letter-spacing: 0.14vw;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 0.66rem;
+        line-height: 2.283vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+.news-category {
+      height: 17.77vh;
+      background-color: #FFFFFF;
+}
+
+.read-news {
+        background-color: white;
+        height: 6.66vh;
+        color: #B2ACBA;
+        letter-spacing: 0.14vw;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 0.66rem;
+        line-height: 2.283vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+}
+
+
+.nav-category {
+    background-color: white;
+	text-align: left;
+    margin-bottom: 0;
+      border-color: #B2ACBA;
+    border: 1px;
+}
+
+
+    .side-nav {
+        display: flex;
+        align-items: center;
+        height: 5.55vh;
+        text-decoration: none;
+        letter-spacing: 0.14vw;
+        color: #6200EA;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 0.66rem;
+        line-height: 2.283vh;
+        padding: 1.88vh 1.87vw;
+    }
+
+    .read-news2 {
+        background-color: white;
+        height: 6.66vh;
+        color: #B2ACBA;
+        letter-spacing: 0.14vw;
+        text-transform: uppercase;
+        opacity: 1;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 0.66rem;
+        line-height: 2.283vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+.footer {
+    background-color: #211138;
+    height: 11.11vh;
+    width: 100%;
+    margin-top: 0;
+    letter-spacing: 0.14vw;
+	color: #B2ACBA;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 0.66rem;
+	line-height: 2.283vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandname, .studentname {
+    color: #6200EA;
+}
+
+
+/**#LAYOUTS*/
+
+body {
+	width: 100vw;
+    height: auto;
+}
+
+.container {
+  position: absolute;
+}
+
+.header {
+	position: relative;
+    left: 0;
+    top: 0;
+	display: flex;
+	height: 8.88vh;
+	width: 100vw;
+	background-color: rgba(98, 0, 234, 1);
+    padding: 0;
+}
+
+.menubar {
+    position: relative;
+	display: flex;
+	width: 100vw;
+    height: 8.88vh;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-container {
+  position: relative;
+  overflow: scroll;
+  width: 100vw;
+  height: auto;
+  background-color: #F4F3F5;
+  display: grid;
+  grid-template-columns: 15% 69.3% 15%;
+  grid-template-rows: auto;
+  grid-template-areas: "offset1 column-container offset2";
+}
+
+  .offset1 {
+    grid-area: offset1;
+  }
+
+  .offset2 {
+    grid-area: offset2;
+  }
+
+  .column-container {
+    grid-area: column-container;
+    display: grid;
+    grid-template-columns: 67% 31%;
+    grid-template-rows: auto;
+    grid-template-areas: "column1 column2";
+    position: relative;
+    top: 4.44vh;
+  }
+    .column1 {
+      grid-area: column1;
+      padding-right: 1.8%;
+  
+    }
+  
+    .column2 {
+      grid-area: column2;
+     
+    }
+
+.main-blogpost {
+  color: white;
+  height: 30.22vh;
+  border-radius: 15px;
+  background-color: transparent;
+  background-image: url(assets/main-blogpost-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  align-content: center; 
+  margin: 0;
+  border: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-right: 3.75vw;
+  padding-left: 3.75vw;
+}
+
+.categories {
+    width: 100%;
+    height: 17.77vh;
+    margin-top: 3.33vh;
+}
+
+    .category1 {
+        width: 47.94%;
+        height: 17.77vh;
+        background-color: #FFFFFF;
+        display: inline-block;
+        float: left;
+        border-radius: 15px;
+    }
+    
+    .category2 {
+        width: 47.94%;
+        height: 17.77vh;
+        background-color: #FFFFFF;
+        display: inline-block;
+        float: right;
+        border-radius: 15px;
+    }
+    
+        .categorybox1 {
+            display: flex;
+        }
+    
+        .categorybox2 {
+            display: flex;
+        }
+    
+            .imageholder {
+                width: 7.5vw;
+                height: 13.33vh;
+                padding-left: 1.46vw;
+                padding-top: 1.22vh;
+                padding-bottom: 1.22vh;
+            }
+            
+            .imageholder1 {
+                width: 100%;
+                padding-bottom: 100%;
+                position: relative;
+                background-image: url(assets/business.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 10px;
+                opacity: 1;
+            }
+    
+            .imageholder2 {
+                width: 100%;
+                padding-bottom: 100%;
+                position: relative;
+                background-image: url(assets/culture.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 10px;
+                opacity: 1;
+            }
+    
+            .categorytext {
+                flex: 1;
+                width: 10.62; 
+                padding-left: 1.46vw;
+                padding-right: 1.46vw;
+                padding-top: 1.22vh;
+                padding-bottom: 1.22vh;
+            }
+    
+                .categorytext > H3 {
+                    font-size: 0.66rem;
+                    font-weight: bold;
+                    color: #6200EA;
+                    letter-spacing: 0.17vw;
+                    line-height: 2.283vh;
+                    text-transform: uppercase;
+                    margin-bottom: 0;
+                }
+    
+                .categorytext > P {
+                    font-size: 0.77rem;
+                    line-height: 2.22vh;
+                    margin-top: 1.66vh;
+                    color: #211138;
+                }
+
+.basic-blogpost {
+     color: #211138;
+     height: 30.22vh;
+     border-radius: 15px;
+     background-color: white;
+     opacity: 1;
+     align-content: center; 
+     border: 0;
+     padding-top: 5vh;
+     padding-bottom: 5vh;
+     padding-right: 3.75vw;
+     padding-left: 3.75vw;
+     margin-top: 3.33vh;
+     }
+
+.basic-blogpost2 {
+     height: 67.84vh;
+     margin-top: 3.33vh;
+     padding: 0;
+     border-bottom-right-radius: 15px;
+     border-bottom-left-radius: 15px;
+}
+
+    .blogpostimage {
+        color: white;
+        height: 27.62vh;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        background-color: transparent;
+        background-image: url(assets/blogpostimage.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;
+        margin: 0;
+    }
+
+    .blogpostwithimage {
+        color: #211138;
+        height: 30.22vh;
+        background-color: white;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        opacity: 1;
+        align-content: center; 
+        border: 0;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        padding-right: 3.75vw;
+        padding-left: 3.75vw;
+    }
+
+.basic-blogpost3 {
+     color: #211138;
+     height: 30.22vh;
+     border-radius: 15px;
+     background-color: white;
+     opacity: 1;
+     align-content: center; 
+     border: 0;
+     padding-top: 5vh;
+     padding-bottom: 5vh;
+     padding-right: 3.75vw;
+     padding-left: 3.75vw;
+     margin-bottom: 4.44vh;
+     margin-top: 3vh;
+     }
+
+.categorybox-news {
+        
+        height: 17.77vh;
+        display: inline-block;
+        border-radius: 15px;
+}
+
+    .categorybox {
+              display: flex;
+           }
+
+
+        .newsimage {
+            width: 100%;
+            padding-bottom: 100%;
+            position: relative;
+            border-radius: 10px;
+        }
+    
+                .imageholder3 {
+                     background-image: url(assets/design.jpg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+                
+                .imageholder4 {
+                     background-image: url(assets/health.jpg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+                
+                .imageholder5 {
+                     background-image: url(assets/politics.jpg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+                
+                .imageholder6 {
+                    background-image: url(assets/science.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+                
+                .imageholder7{
+                     background-image: url(assets/travel.jpg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+
+                .imageholder8 {
+                     background-image: url(assets/world.jpg);
+                     background-size: cover;
+                     background-repeat: no-repeat;
+                     background-position: center;
+                     opacity: 1;
+                }
+
+
+
+ 
+
+
+      
+
+
+
+
+
+  
+
+    
+
+
+
+
+
+ 
+  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
